@@ -2,7 +2,7 @@
 // @name         Stack Overflow Nuisances
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Disable the annoying stack over flow cookie window
+// @description  Disable the annoying stackoverflow cookie window
 // @author       https://github.com/rubenbenjamin/mytampermonkeyscripts
 // @match        https://*.stackoverflow.com/*
 // @match        https://*.serverfault.com/*
@@ -15,7 +15,6 @@
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        none
 // ==/UserScript==
-
 
 $(function() {
   $(".js-consent-banner").hide();
