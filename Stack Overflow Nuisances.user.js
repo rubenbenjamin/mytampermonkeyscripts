@@ -2,7 +2,7 @@
 // @name         Stack Overflow Nuisances
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Disable the annoying stackoverflow cookie window
+// @description  Disable the annoying stackoverflow cookie window for all stackoverflow sites
 // @author       https://github.com/rubenbenjamin/mytampermonkeyscripts
 // @match        https://*.stackoverflow.com/*
 // @match        https://*.serverfault.com/*
